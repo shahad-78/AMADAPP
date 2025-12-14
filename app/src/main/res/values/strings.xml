@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">AMADAPP</string>
+    <string name="app_logo">App Logo</string>
+    <string name="email_icon">Email Icon</string>
+    <string name="password_icon">Password Icon</string>
+
+    <string name="name_icon">Name Icon</string>
+    <string name="password_confirm_icon">Confirm Password Icon</string>
+    <string name="location_icon">Location Icon</string>
+    <string name="use_current_location">Use Current Location</string>
+    <string name="google_register">Register with Google</string>
+    <string name="facebook_register">Register with Facebook</string>
+    <string name="apple_register">Register with Apple</string>
+    <!-- For item_activity.xml -->
+    <string name="placeholder_activity_desc">You completed the Spring Planting Challenge!</string>
+    <string name="placeholder_activity_time">2 hours ago</string>
+
+    <!-- For item_tree_card.xml -->
+    <string name="placeholder_tree_name">Date Palm</string>
+    <string name="placeholder_tree_type">Phoenix dactylifera</string>
+
+    <!-- For item_challenge.xml -->
+    <string name="placeholder_challenge_title">Summer Planting Challenge</string>
+    <string name="placeholder_challenge_desc">Plant 5 trees this summer.</string>
+    <!-- New strings for activity_menu.xml & fragment_dashboard.xml -->
+    <string name="profile_picture">Profile Picture</string>
+    <string name="trees">Trees</string>
+    <string name="challenges">Challenges</string>
+    <string name="points">Points</string>
+    <string name="my_trees">My Trees</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="active_challenges">Active Challenges</string>
+    <string name="stat_icon">Stat Icon</string>
+    <string name="view_all">View All</string>
+
+    <!-- New strings for Bottom Navigation Menu -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_plant_trees">Plant</string>
+    <string name="nav_challenges">Challenges</string>
+    <string name="nav_community">Community</string>
+    <string name="nav_resources">Resources</string>
+
+    <string name="back">Back</string>
+    <string name="two_factor_authentication">Two Factor Authentication</string>
+    <string name="backup_codes">Backup Codes</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="arrow">Arrow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBDdK9d4YefSqJENLNk_VDaIU3UjWySdMQ</string>
+
+    <!-- NEW STRINGS for Plant Tree Fragment -->
+    <string name="plant_trees_title">Plant &amp; Report</string>
+    <string name="plant_trees_header">Help Restore Your Community</string>
+    <string name="plant_trees_desc">Select a location on the map or use your current location to find recommended trees or report a degraded area.</string>
+    <string name="report_degraded_area">Report Degraded Area</string>
+    <string name="find_tree_recommendations">Find Tree Recommendations</string>
+</resources>

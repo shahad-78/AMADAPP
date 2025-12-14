@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_amad"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_amad_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AMADAPP"
+        tools:targetApi="31">
+        <activity
+            android:name=".UserEditReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminReviewDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminReviewSubmissionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminManageReportsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminAddChallengeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminManageChallengesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminAddTreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminManageTreesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminAddContentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminManageEducationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminManageUsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".UserChallengeDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserTreeDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadPlantedTreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TreeRecommendationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChallengeDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResourceDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReportAreaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminDashboardActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TwoFactorVerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LauncherActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

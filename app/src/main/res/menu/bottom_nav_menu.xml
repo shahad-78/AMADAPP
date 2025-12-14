@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Defines the items for the BottomNavigationView -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/nav_dashboard" />
+    <item
+        android:id="@+id/nav_plant_trees"
+        android:icon="@drawable/tree_filled"
+        android:iconTint="@color/green"
+        android:title="@string/nav_plant_trees" />
+    <item
+        android:id="@+id/nav_challenges"
+        android:icon="@drawable/trophy_filled"
+        android:title="@string/nav_challenges" />
+
+    <item
+        android:id="@+id/nav_resources"
+        android:icon="@drawable/ic_resources_nav"
+        android:title="@string/nav_resources" />
+</menu>

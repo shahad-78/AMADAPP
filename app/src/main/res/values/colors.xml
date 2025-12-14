@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#1D5450</color>
+
+    <color name="purple_primary">#667eea</color>
+    <color name="purple_dark">#764ba2</color>
+    <color name="pink_accent">#f5576c</color>
+    <color name="ivory">#248680</color>
+
+    <!-- Glass Effect Colors -->
+    <color name="glass_white">#26FFFFFF</color>
+    <color name="input_background">#33FFFFFF</color>
+    <color name="social_button_bg">#33FFFFFF</color>
+    <color name="hint_white">#B3FFFFFF</color>
+    <color name="divider_white">#4DFFFFFF</color>
+    <color name="second_green">#248680</color>
+
+    <!-- Button Colors -->
+    <color name="button_gradient_start">#f093fb</color>
+    <color name="button_gradient_end">#f5576c</color>
+
+    <color name="weak_password">#FF4444</color>
+    <color name="medium_password">#FF9800</color>
+    <color name="strong_password">#4CAF50</color>
+    <color name="very_strong_password">#2196F3</color>
+    <!-- New colors for the dashboard & nav -->
+    <color name="white_alpha_70">#B3FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+
+</resources>

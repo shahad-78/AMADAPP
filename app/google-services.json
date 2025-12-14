@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "265213877855",
+    "project_id": "amadapp-d1af2",
+    "storage_bucket": "amadapp-d1af2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265213877855:android:089a7df99f2957f10605ea",
+        "android_client_info": {
+          "package_name": "com.example.amadapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZmwjVEaL-tZ2mGm07p_9bA1gV5BBgX3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
